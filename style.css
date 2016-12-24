@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+/* background image */
+html {
+  background: url(bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+/* center all the content */
+#container {
+  font-weight: bold;
+  width: 70%;
+  text-align: center;
+  margin: 100px auto;
+  font-size: 1.5em;
+  min-height: 300px;
+}
+
+/* make button slightly bigger */
+button {
+  font-size: .8em;
+}
